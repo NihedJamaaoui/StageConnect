@@ -1,0 +1,479 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+  
+  .stage-connect-home-container {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #fff;
+  }
+  
+  .stage-connect-navbar {
+    background-color: #192b64;
+
+
+    padding: 15px;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .stage-connect-logo {
+    max-width: 60px;
+    height: auto;
+  }
+  
+  .stage-connect-navbar-buttons {
+    display: flex;
+  }
+  
+  .stage-connect-auth-button {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    background-color: #007bff;
+  }
+  
+  .stage-connect-auth-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .stage-connect-create-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 10px; /* Adjust as needed */
+  }
+  
+  .stage-connect-create-button:hover {
+    background-color: #0056b3;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: #7e91db9e;
+  }
+  
+  .stage-connect-offres-list {
+    margin-top: 40px;
+    padding-top: 30px;
+    margin-bottom: 75px;
+    background-color: rgb(23, 37, 85);
+  }
+
+  .x {
+    margin-top: 40px;
+    padding-top: 30px;
+    margin-bottom: 75px;
+    background: #7e91db9e;
+
+  }
+
+  
+  .stage-connect-offre-item {
+    background-color: rgb(23, 37, 85);
+    border: 1px solid #ced4da;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 79%;
+    margin: auto;
+    box-shadow:  #ced4da;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    text-align: left;
+    margin-left: 152px;
+  }
+  
+  .stage-connect-stagiaire-info {
+    p {
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+  }
+  
+  .stage-connect-offre-content {
+    width: 100%; /* Make sure content takes full width within the box */
+  }
+  
+  .stage-connect-offre-header {
+    margin-bottom: 15px;
+    p {
+      margin-bottom: 8px;
+    }
+  }
+  
+  h2{
+    text-align: center;
+    color: brown;
+    font-family: 'Courier New', monospace;
+  }
+  
+  .stage-connect-crud-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .stage-connect-crud-button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #007bff;
+    transition: background-color 0.3s;
+  }
+  
+  .stage-connect-crud-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .stage-connect-update-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    min-height: 200px;
+    background: rgba(14, 19, 88, 0.7);
+    border-radius: 10px;
+    padding: 40px;
+    box-sizing: border-box;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .stage-connect-update-form {
+    h3 {
+      margin-bottom: 20px;
+    }
+  
+    label {
+      display: block;
+      margin-bottom: 8px;
+      color: #fff;
+    }
+  
+    input,
+    textarea,
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+  
+    button {
+      display: inline-block;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-size: 16px;
+      color: #fff;
+      background-color: #007bff;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+      cursor: pointer;
+    }
+  
+    button:hover {
+      background-color: #0056b3;
+    }
+  }
+  
+  .user-icon {
+    width: 80px; /* Set the desired width */
+    height: 80px; /* Set the desired height */
+    border-radius: 50%; /* Make the image round */
+    margin-right: 10px; /* Add some spacing if needed */
+  }
+  
+  .stage-connect-create-button {
+    margin-top: 80px;
+  }
+  
+  .navi{
+    color: white;
+    margin-right: 500px;
+    font-size: 20px;
+  }
+  
+  
+    .stage-connect-offre-header {
+      display: flex;
+      align-items: center;
+    }
+    
+    .user-icon {
+      display: inline-block;
+    }
+    
+    .header-content {
+      display: inline-block;
+      margin-left: 10px; 
+    }
+    
+    b{
+      font-family: 'Comic Sans MS', monospace;
+    }
+  
+    .xx{
+      text-align: center;
+    }
+
+    
+  
+    .fade-in {
+      opacity: 0;
+      animation: fadeIn 0.7s ease-in-out forwards;
+    }
+    
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+
+
+    .login-animation{
+        position: relative;
+        display: inline-block;
+        padding: 10px 20px;
+        color: #03e9f4;
+        font-size: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+        overflow: hidden;
+        transition: .5s;
+        letter-spacing: 4px;
+        background-color: transparent;
+      }
+      
+      .login-animation:hover {
+        background: #03e9f4;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #03e9f4,
+                    0 0 25px #03e9f4;
+      }
+      
+    
+    
+    
+    .login-animation nav {
+        position: absolute;
+        display: block;
+      }
+      
+      .login-animation nav:nth-child(1) {
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg, transparent, #03e9f4);
+        animation: btn-anim1 2s linear infinite;
+      }
+      
+      @keyframes btn-anim1 {
+        0% {
+          left: -100%;
+        }
+        50%,100% {
+          left: 100%;
+        }
+      }
+      
+      .login-animation nav:nth-child(2) {
+        top: -100%;
+        right: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(180deg, transparent, #03e9f4);
+        animation: btn-anim2 2s linear infinite;
+        animation-delay: .5s
+      }
+      
+      @keyframes btn-anim2 {
+        0% {
+          top: -100%;
+        }
+        50%,100% {
+          top: 100%;
+        }
+      }
+      
+      .login-animation nav:nth-child(3) {
+        bottom: 0;
+        right: -100%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(270deg, transparent, #03e9f4);
+        animation: btn-anim3 2s linear infinite;
+      }
+      
+      @keyframes btn-anim3 {
+        0% {
+          right: -100%;
+        }
+        50%,100% {
+          right: 100%;
+        }
+      }
+      
+      .login-animation nav:nth-child(4) {
+        bottom: -100%;
+        left: 0;
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(360deg, transparent, #03e9f4);
+        animation: btn-anim4 2s linear infinite;
+        animation-delay: .5s
+      }
+      
+      @keyframes btn-anim4 {
+        0% {
+          bottom: -100%;
+        }
+        50%,100% {
+          bottom: 100%;
+        }
+      }
+
+      .login-animation{
+        position: relative;
+        display: inline-block;
+        padding: 10px 20px;
+        color: #03e9f4;
+        font-size: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+        overflow: hidden;
+        transition: .5s;
+        letter-spacing: 4px;
+        background-color: transparent;
+      }
+      
+      .login-animation:hover {
+        background: #03e9f4;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #03e9f4,
+                    0 0 25px #03e9f4;
+      }
+      
+      .login-animation,
+      .sign-animation {
+        padding: 4px 10px;
+        font-size: 10px; 
+      }
+      
+
+
+
+      .animation{
+        position: relative;
+        display: inline-block;
+        padding: 10px 20px;
+        color: #03e9f4;
+        font-size: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+        overflow: hidden;
+        transition: .5s;
+        letter-spacing: 4px;
+        background-color: transparent;
+      }
+      
+      .animation:hover {
+        background: #03e9f4;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #03e9f4,
+                    0 0 25px #03e9f4;
+      }
+      
+  
+      .animation nav {
+        position: absolute;
+        display: block;
+      }
+
+
+      .animation{
+        position: relative;
+        display: inline-block;
+        padding: 10px 20px;
+        color: #03e9f4;
+        font-size: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+        overflow: hidden;
+        transition: .5s;
+        letter-spacing: 4px;
+        background-color: transparent;
+      }
+      
+      .animation:hover {
+        background: #03e9f4;
+        color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #03e9f4,
+                    0 0 25px #03e9f4;
+      }
+      
+      .animation {
+        padding: 4px 10px;
+        font-size: 10px; 
+      }
+
+
+      .aside-left {
+        background-color: #ff0000; 
+        flex: 1; 
+      }
+      
+      .aside-right {
+        background-color: #ff0000; 
+        flex: 1; 
+      }
+
+      
+.vertical-line {
+  border-right: 1px solid #ccc; 
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin-right: 560px;
+  z-index: 999;
+}
+
+.footer {
+  margin-top: 20px; 
+}

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bk"
+    android:focusableInTouchMode="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/loginHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign up Stagiaire "
+            android:textSize="24dp"></TextView>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textinputnoms"
+            style="@style/parent"
+            android:layout_marginTop="@dimen/loginViewsMargin">
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextnoms"
+                style="@style/modifiedEditText"
+                android:hint="@string/login_noms_hint"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/primaryTextColor"
+                ></EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textinputprenoms"
+            style="@style/parent">
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextprenoms"
+                style="@style/modifiedEditText"
+                android:hint="@string/login_prenoms_hint"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/primaryTextColor"
+                ></EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textinputEmails"
+            style="@style/parent">
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextEmails"
+                style="@style/modifiedEditText"
+                android:hint="@string/login_emails_hint"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/primaryTextColor"
+                ></EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textinputPasswords"
+            style="@style/parent">
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextPasswords"
+                style="@style/modifiedEditText"
+                android:hint="@string/login_passwords_hint"
+                android:inputType="numberPassword"
+                android:maxLines="1"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/primaryTextColor"
+                ></EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textinputdate_naissance"
+            style="@style/parent">
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextdate_naissance"
+                style="@style/modifiedEditText"
+                android:hint="@string/login_date_hint"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/primaryTextColor"
+                ></EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textinputcv"
+            style="@style/parent">
+
+            <Button
+                android:id="@+id/btncv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pick CV"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textinputImages"
+            style="@style/parent">
+
+            <ImageView
+                android:id="@+id/imgvs"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:src="@drawable/img"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cirRegButton"
+            style="@style/loginButton"
+            android:layout_gravity="right"
+            android:layout_marginTop="@dimen/loginViewsMargin"
+            android:text="Singup"
+            android:textSize="22dp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/loginViewsMargin"
+            android:text="@string/login_signup_hint"
+            android:textAlignment="textEnd"
+            android:textColor="@color/primaryTextColor"
+            android:textStyle="bold"
+            android:layout_gravity="end"
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
+

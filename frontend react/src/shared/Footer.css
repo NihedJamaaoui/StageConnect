@@ -1,0 +1,25 @@
+footer {
+    flex: 0 0 auto;
+    color: #fec632;
+    background: #0a0327;
+    display: flex
+  }
+
+.footer{
+ color: beige;
+}
+
+.scrolling-text {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(70%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

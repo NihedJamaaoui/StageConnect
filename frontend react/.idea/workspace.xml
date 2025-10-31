@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="11f57481-8e20-4e4d-8274-880a3a689beb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../back/bin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/Repositories/PostulerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/Repositories/PostulerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/Repositories/UtilisateurRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/Repositories/UtilisateurRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/c/CorsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/c/CorsConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/controllers/OffreController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/controllers/OffreController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/controllers/PostulerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/controllers/PostulerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/controllers/UtilisateurController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/controllers/UtilisateurController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/entites/Entreprise.class" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/entites/Entreprise.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/entites/Offre.class" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/entites/Offre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/entites/Postuler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/entites/Postuler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/entites/Stagiaire.class" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/entites/Stagiaire.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/entites/Utilisateur.class" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/entites/Utilisateur.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/services/PostulerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/services/PostulerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/services/PostulerServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/services/PostulerServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/services/UtilisateurService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/services/UtilisateurService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/services/UtilisateurServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bin/src/main/java/projet/StageConnect/services/UtilisateurServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/bin/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../back/bin/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../back/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../back/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2aJ4Ha58NoWS97gwRgKIgN3wCEy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11f57481-8e20-4e4d-8274-880a3a689beb" name="Changes" comment="" />
+      <created>1704023262539</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704023262539</updated>
+    </task>
+    <servers />
+  </component>
+</project>

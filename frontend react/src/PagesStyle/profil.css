@@ -1,0 +1,232 @@
+
+
+:root {
+ --main-bg-color: #2C3E50;
+ --text-color: #ECF0F1;
+ --border-color: #3498DB;
+ --button-color: #3498DB;
+}
+
+#particles-js {
+ height: 100%;
+}
+
+.loginBox {
+ position: absolute;
+ top: 43%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 750px;
+ height: 450px;
+ min-height: 200px;
+ background: transparent;
+ border-radius: 10px;
+ padding: 40px;
+ box-sizing: border-box;
+}
+
+.user {
+ margin: 0 auto;
+ display: block;
+ margin-bottom: 20px;
+ border: 2px solid var(--border-color);
+ border-radius: 50%;
+ padding: 5px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h3 {
+ margin: 0;
+ padding: 0 0 20px;
+ color: var(--text-color);
+ text-align: center;
+}
+
+.loginBox input {
+ width: 100%;
+ margin-bottom: 20px;
+}
+
+.loginBox input[type="text"],   
+.loginBox input[type="number"],
+.loginBox input[type="date"] {
+ border: none;
+ border-bottom: 2px solid var(--border-color);
+ outline: none;
+ height: 40px;
+ color: #fff;
+ background: transparent;
+ font-size: 16px;
+ padding-left: 20px;
+ box-sizing: border-box;
+}
+
+.loginBox textarea {
+ border: none;
+ border-bottom: 2px solid var(--border-color);
+ outline: none;
+ height: 120px;
+ width: 370px;
+ color: #fff;
+ background: transparent;
+ font-size: 16px;
+ padding-left: 20px;
+ box-sizing: border-box;
+}
+
+.loginBox input[type="text"]:hover,
+.loginBox input[type="date"]:hover,
+.loginBox input[type="number"]:hover,
+.loginBox textarea:hover {
+
+ color: #42F3FA;
+ border: 1px solid #42F3FA;
+ box-shadow: 0 0 5px rgba(0, 255, 0, .3), 0 0 10px rgba(0, 255, 0, .2),
+     0 0 15px rgba(0, 255, 0, .1), 0 2px 0 black;
+}
+
+.loginBox input[type="text"]:focus,
+.loginBox input[type="date"]:focus,
+.loginBox input[type="number"]:focus,
+.loginBox textarea:focus {
+ border-bottom: 2px solid var(--border-color);
+}
+
+.inputBox {
+ position: relative;
+}
+
+.inputBox span {
+ position: absolute;
+ top: 10px;
+ color: #262626;
+}
+
+.loginBox button {
+ margin-left: 30px;
+ text-decoration: none;
+ color: #fff;
+ font-size: 16px;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 5px;
+ transition: background-color 0.3s;
+ background-color: #524ff36b;
+ 
+}
+
+.loginBox button:hover {
+ background: #2980B9;
+ 
+}
+
+.loginBox a {
+ color: var(--text-color);
+ font-size: 14px;
+ font-weight: bold;
+ text-decoration: none;
+ text-align: center;
+ display: block;
+}
+
+a:hover {
+ color: #00ffff;
+}
+
+.bb  {
+ color: #d4a415;
+}
+b {
+ color: #855cff;
+ font-size: x-large;
+}
+p {
+ font-size: large;
+ color: #ffffffb7;
+}
+h1 {
+position: relative;
+color: #ffffff;
+text-align: center;
+margin-top: 30px;
+font-size: 3em;
+letter-spacing: 2px;
+font-family: 'Brush Script MT', cursive;
+z-index: 2;
+}
+
+h1::before {
+content: "";
+position: absolute;
+top: 0;
+left: 50%;
+transform: translateX(-50%);
+width: 93%;
+height: 100%;
+background: rgba(0, 0, 0, 0.5); 
+z-index: -1;
+}
+.centered-container {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ height: 100vh; /* You might need to adjust this based on your layout */
+}
+
+.update__submit span:nth-child(1) {
+ top: 0;
+ left: 50%;
+ width: 50%;
+ height: 2px;
+ background: linear-gradient(90deg, transparent, #03e9f4);
+ animation: btn-anim1 2s linear infinite;
+}
+@keyframes btn-anim1 {
+ 0% {
+   left: 500%;
+ }
+ 50%,100% {
+   left: 50%;
+ }
+}
+
+
+ h3{
+ font-family: 'Courier New', monospace;
+ }
+
+
+ .stage-connect-navbar {
+  background-color: #06263d;
+  padding: 15px;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stage-connect-logo {
+  max-width: 60px;
+  height: auto;
+}
+.stage-connect-navbar-buttons {
+ display: flex;
+}
+
+.stage-connect-navbar2 {
+ background-color: #06263d;
+ padding: 15px;
+ color: #1a22bb;
+ position: fixed;
+ width: 100%;
+ top: 0;
+ z-index: 1000;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}

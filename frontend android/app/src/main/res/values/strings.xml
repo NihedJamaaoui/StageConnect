@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">Home</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="login_name_hint">Nom de Entreprise</string>
+    <string name="login_adr_hint">Adresse</string>
+    <string name="login_mobile_number_hint">Telephone</string>
+    <string name="login_image_hint">Image.ex</string>
+
+    <string name="login_emails_hint">Email</string>
+    <string name="login_passwords_hint">Password</string>
+    <string name="login_noms_hint">Nom de stagiaire</string>
+    <string name="login_prenoms_hint">Prenom de stagiaire</string>
+    <string name="login_date_hint">Date naissance</string>
+    <string name="login_cv_hint">Cv</string>
+    <string name="login_images_hint">Image.ex</string>
+</resources>
+
